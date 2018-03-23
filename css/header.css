@@ -1,0 +1,189 @@
+/*  HEADER  */
+
+
+.page_header,
+.container_box,
+.brand,
+.brand_link,
+.brand_logo,
+.navigation_wrapper,
+.navigation, 
+.social_block {
+  
+  margin: 0;
+  padding: 0;
+  
+}
+
+.page_header {
+  
+background: url(../img/main-bg.png) no-repeat center top;
+height: 880px;
+  
+}
+
+.container_box {
+  height: 116px;
+  border-bottom: #848484 1px solid;
+}
+
+/*  /HEADER  */
+
+/*  BRAND  */
+
+
+.brand {
+  
+  float: left;
+  margin-top: 20px;
+  
+}
+
+.brand_link {
+  
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  line-height: 0;
+  
+}
+
+.brand_logo {
+  
+  display: inline-block;
+  width: 80px;
+  border: none;
+  outline: none;
+  
+}
+
+
+/*  /BRAND  */
+
+/*  NAVIGATION  */
+
+
+.navigation_wrapper {
+
+
+      float: left;
+    display: block;
+    width: 690px;
+    margin-top: 65px;
+    margin-left: 250px;
+  
+}
+
+
+.navigation-main .navigation_item {
+
+  display: inline;
+  margin-top: 55px;
+  font-weight: normal;
+  font-size: 20px;
+  text-transform: capitalize;
+  line-height: 18px;
+  
+}
+
+.navigation_item {
+
+  padding: 30px 15px;
+}
+
+.navigation-main .navigation_item:last-child {
+  
+  margin-right: 0;
+  
+}
+
+.navigation-main .navigation_link {
+  
+  font-size: inherit;
+  line-height: inherit;
+  color: #ffffff;
+  text-decoration: none;
+  
+}
+
+.navigation-main .navigation_link:hover {
+  
+  border-bottom: 2px solid #11749e;
+  
+}
+
+
+/*  /NAVIGATION  */
+
+/*  SOCIAL-BLOCK */
+
+
+.social_block {
+  
+  float: right;
+  width: 145px;
+  margin-top: 65px;
+  
+}
+
+.social_icons {
+  padding: 0 5px;
+}
+
+.social_icons a:hover {
+  
+  color: #11749e;
+  
+}
+
+/*  /SOCIAL-BLOCK  */
+
+
+/*  PAGE-CONTENT/ TITLE  */
+
+.page_content,
+.title,
+.title_name,
+.title_text,
+.btn_text,
+.btn_arrow,
+.btn-scroll {
+  
+  margin: 0;
+  padding: 0;
+  
+}
+.title {
+  text-align: center;
+margin-top: 390px;
+}
+.title_name {
+  color: #FFF;
+font-size: 153px;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+.title_text {
+   color: #11749e;
+font-size: 25px;
+font-weight: normal;
+text-transform: uppercase;
+padding-top: 60px;
+}
+
+.btn_text {
+font-family: 'Opensans';
+color: #ffffff;
+font-size: 13px;
+line-height: 22px;
+padding-top: 120px;
+}
+
+.btn_arrow {
+
+  margin-bottom: 105px;
+
+}
+
+/*  /PAGE-CONTENT/ TITLE  */

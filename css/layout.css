@@ -1,0 +1,81 @@
+/*  LAYOUT  */
+
+html, body {
+  
+  min-width: 1200px;
+  width: 100%;
+  background-color: #ffffff;
+  color: #000000;
+  
+}
+
+html {
+  
+  font-family: 'Gotham', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  
+}
+
+.container {
+  
+  width: 1200px;
+  margin: 0 auto;
+  
+}
+
+.clearfix::before, 
+.clearfix::after {
+  
+  content: "";
+  display: table;
+  
+}
+
+.clearfix::after {
+  
+  clear: both;
+  
+}
+
+.page_header {
+  
+  display: block;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.visually-hidden {
+  
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  border: none;
+  margin: -1px;
+  white-space: nowrap;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  
+}
+
+/*  /LAYOUT  */
+
+/*  BUTTON  */
+
+.btn {
+  
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  color: inherit;
+  
+}
+
+
+/*  /BUTTON  */
