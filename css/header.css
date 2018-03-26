@@ -17,13 +17,12 @@
 
 .page_header {
   
-background: url(../img/bg-header.jpg) no-repeat center top;
-height: 880px;
-  
+background: url(../img/bg-header.jpg) no-repeat center top/cover;
+height: 880px; 
 }
 
 .container_box {
-  height: 116px;
+  height: 115px;
   border-bottom: #848484 1px solid;
 }
 
@@ -35,7 +34,8 @@ height: 880px;
 .brand {
   
   float: left;
-  margin-top: 20px;
+ margin-top: 15px;
+margin-left: 15px;
   
 }
 
@@ -65,29 +65,30 @@ height: 880px;
 
 .navigation_wrapper {
 
-      float: left;
-    display: block;
-    width: 690px;
-    margin-top: 65px;
-    margin-left: 250px;
+float: left;
+display: block;
+margin-top: 50px;
+padding-left: 230px;
   
 }
 
 
 .navigation-main .navigation_item {
 
+  font-family: 'Myriad Pro', sans-serif;
   display: inline;
-  margin-top: 50px;
+  
   font-weight: normal;
   font-size: 20px;
   text-transform: capitalize;
-  line-height: 30px;
+ line-height: 30px;
+  width: 690px;
   
 }
 
 .navigation_item {
 
-  padding: 20px 15px;
+  padding: 35px 15px;
   border: 3px solid hidden;
 }
 
@@ -123,7 +124,8 @@ height: 880px;
   
   float: right;
   width: 145px;
-  margin-top: 65px;
+  margin-top: 50px;
+  padding-right: 50px;
   
 }
 
@@ -156,18 +158,20 @@ height: 880px;
 }
 
 .title {
-margin-top: 250px;
+
 text-align: center
 }
 
 .title_name {
   
-font-family: 'Gotham Bold';
+font-family: 'Gotham Bold'sans-serif;
 color: #FFF;
-font-size: 150px;
+font-size: 147px;
 font-weight: bold;
-line-height: 160px;
+line-height: 135px;
 text-transform: uppercase;
+padding-top: 265px;
+text-align: center;
 
 }
 
@@ -177,10 +181,10 @@ font-family: 'Gotham Medium', sans-serif;
 color: #11749e;
 font-size: 25px;
 line-height: 50px;
-font-weight: bold;
+font-weight: normal;
 text-transform: uppercase;
-letter-spacing: 20px;
-margin-left: 31px;
+letter-spacing: 17px;
+text-align: center;
 
 }
 
@@ -193,6 +197,8 @@ line-height: 22px;
 text-transform: capitalize;
 padding-top: 100px;
 padding-bottom: 10px;
+text-align: center;
+
 }
 
 .btn_text:hover {

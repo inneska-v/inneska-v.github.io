@@ -1,0 +1,21 @@
+/*  FEATURES  */
+
+#features,
+.page_content,
+.title,
+.bg,
+.features_title {
+
+	padding: 0;
+	margin: 0;
+}
+
+.page_content {
+
+	background-color: #11749e;
+	height: 740px;
+	width: auto;
+
+}
+
+/*  /FEATURES  */
