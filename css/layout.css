@@ -63,19 +63,3 @@ html {
 
 /*  /LAYOUT  */
 
-/*  BUTTON  */
-
-.btn {
-  
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-  border: none;
-  outline: none;
-  text-decoration: none;
-  color: inherit;
-  
-}
-
-
-/*  /BUTTON  */

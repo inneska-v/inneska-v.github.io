@@ -1,0 +1,72 @@
+
+/*  BUTTON  */
+
+.btn {
+  
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  color: inherit;
+  
+}
+
+
+
+.btn_arrow {
+width: 60px;
+height: 60px;
+border-radius: 50%;
+border: 1px solid #ffffff;
+opacity: 100%;  
+background: url(../img/arrow.png) no-repeat center center;
+margin-left: 643px;
+cursor: pointer;
+
+}
+
+.btn_arrow:hover {
+
+border: 1px solid #11749e;
+
+}
+
+
+.btn-middle {
+  
+  width: 170px;
+  border-radius: 3px;
+  border-bottom: 3px solid #736357;
+  background-color: #998675;
+
+  font-size: 14px;
+  line-height: 50px;
+  text-transform: uppercase;
+  
+}
+
+.btn-action,
+.btn-filter {
+  
+  width: 170px;
+  border-radius: 3px;
+  border-bottom: 3px solid #736357;
+  background-color: #998675;
+  color: #ffffff;
+  cursor: pointer;
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 47px;
+  text-transform: uppercase;
+  text-align: center;
+  
+}
+
+/*  /BUTTON  */
+
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto', sans-serif;
