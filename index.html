@@ -11,11 +11,12 @@
 
 <!-- CSS -->
  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/icomoon.css">
  <link rel="stylesheet" type="text/css" href="css/layout.css">
  <link rel="stylesheet" type="text/css" href="css/header.css">
  <link rel="stylesheet" type="text/css" href="css/button.css">
 <link rel="stylesheet" type="text/css" href="css/features.css">
-
+<link rel="stylesheet" type="text/css" href="css/news_area.css">
 </head>
 <body>
 
@@ -40,10 +41,10 @@
 </nav>
 
 <div class="social_block">
-	<a class="social_icons" href="#"><img src="img/f-icon.png" alt="facebook"></a>
-	<a class="social_icons" href="#"><img src="img/tw-icon.png" alt="twitter"></a>
-	<a class="social_icons" href="#"><img src="img/s-icon.png" alt="skype"></a>
-	<a class="social_icons" href="#"><img src="img/in-icon.png" alt="instagram"></a>
+	<a class="social_icons" href="#"><span class="icon-facebook"></span></a>
+	<a class="social_icons" href="#"><span class="icon-twitter"></span></a>
+	<a class="social_icons" href="#"><span class="icon-skype"></span></a>
+	<a class="social_icons" href="#"><span class="icon-linkedin2"></span></a>
 </div>
  </div>
 </div>
@@ -53,7 +54,7 @@
       <p class="title_text">Power by psdfreebies.com</p>
       <a class="btn btn-scroll" href="#features">
         <p class="btn_text">Scroll down</p>
-        <div class="btn_arrow"></a>
+        <div class="btn_arrow"><span class="icon-keyboard_arrow_down"></span></a>
     </div>
   </div> 
 </header>
@@ -64,35 +65,39 @@
   <main class="page_content">
 
  <!-- Features -->
-    <section id="features" class="container clearfix">
+    <section id="features"> 
+    <div class="container clearfix">
       <h2 class="visually-hidden">About agency</h2>
-      <div class="title">
         <div class="bg">W</div>
-      	<h3 class="features_title">We Are An Awesome Agency</h3>
+      	<h3 class="features_text">We Are An Awesome Agency</h3>
      </div>
 
       <div class="container clearfix">
       <ul class="features_list">
         <li class="features_item">
-          <a class="features_link features_link-first" href="#">
+          <a class="features_link" href="#">
+             <div class="feature_icons"><span class="icon-write"></span></div>
             <h3 class="features_title">Feature one</h3>
             <p class="features_description">Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus</p>
           </a>
         </li>
       <li class="features_item">
-          <a class="features_link features_link-second" href="#">
+          <a class="features_link" href="#">
+           <div class="feature_icons"><span class="icon-write"></span></div>
             <h3 class="features_title">Feature two</h3>
             <p class="features_description">Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus</p>
           </a>
         </li>
         <li class="features_item">
-          <a class="features_link features_link-third" href="#">
+          <a class="features_link" href="#">
+             <div class="feature_icons"><span class="icon-search"></span></div>
             <h3 class="features_title">Feature three</h3>
             <p class="features_description">Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus</p>
           </a>
         </li>
         <li class="features_item">
-          <a class="features_link features_link-forth" href="#">
+          <a class="features_link" href="#">
+            <div class="feature_icons"><span class="icon-bubble2"></span></div>
             <h3 class="features_title">Feature four</h3>
             <p class="features_description">Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus</p>
           </a>
@@ -104,24 +109,31 @@
 
 
 <!-- News area-->
-<section class="news">
+<section class="news_area">
 		<h2 class="visually-hidden">News area</h2>
-	<div class="news_one">
+	
+  <article class="news_one">
+    <div class="news">
 		<a class="news_link" href="#">
-		<time>Jan 4, 2016 &#124 In culture</time>
+    <div class="news_time"><time>Jan 4, 2016</time>  In culture </div>
 		<h3 class="news_title">Akita Inu Dog</h3>
 		<p class="news_description">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
 		<p class="news_text">Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur </p>
 		</a>
 	</div>
-<div class="news_two">
+</article>
+  <div class="news_img img_one"></div>
+   <div class="news_img img_two"></div>
+   <article class="news_two">
+      <div class="news">
 		<a class="news_link" href="#">
-		<time>Jan 4, 2016 &#124 In culture</time>
+    <div class="news_time"><time>Jan 4, 2016</time>  In culture </div>
 		<h3 class="news_title">Akita Inu Dog</h3>
 		<p class="news_description">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
 		<p class="news_text">Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur </p>
 		</a>
 	</div>
+</article>
 </section>
 <!-- /News area-->
 
@@ -237,7 +249,7 @@
 
  <!-- Page Footer -->
  <footer class="footer">
- 	<div class="container">
+ 	<div class="container map">
  		<h2 class="visually-hidden">Road Map</h2> 		
  	</div>
  		<div class="container clearfix">
