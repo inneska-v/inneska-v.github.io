@@ -1,3 +1,15 @@
+
+/*  FONTS  */
+
+@font-face {
+font-family: 'Gotham'; 
+src: url('../fonts/Gotham/GothamBold.ttf');
+src: url('../fonts/Gotham/GothamBook.ttf');
+src: url('../fonts/Gotham/GothamMedium.ttf');
+}
+
+/*  /FONTS  */
+
 /*  HEADER  */
 
 
@@ -88,8 +100,9 @@ padding-left: 230px;
 
 .navigation_item {
 
-  padding: 35px 15px;
+  padding: 35px 20px;
   border: 3px solid hidden;
+  
 }
 
 .navigation-main .navigation_item:last-child {
@@ -125,15 +138,20 @@ padding-left: 230px;
   float: right;
   width: 145px;
   margin-top: 50px;
-  padding-right: 50px;
+  
   
 }
 
 .social_icons {
+
+  text-decoration: none;
   padding: 0 5px;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
 }
 
-.social_icons a:hover {
+.social_icons:hover {
   
   color: #11749e;
   
@@ -164,7 +182,7 @@ text-align: center
 
 .title_name {
   
-font-family: 'Gotham Bold'sans-serif;
+font-family: 'Gotham Bold', sans-serif;
 color: #FFF;
 font-size: 147px;
 font-weight: bold;
@@ -172,6 +190,7 @@ line-height: 135px;
 text-transform: uppercase;
 padding-top: 265px;
 text-align: center;
+
 
 }
 

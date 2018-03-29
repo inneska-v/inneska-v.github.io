@@ -2,20 +2,148 @@
 
 #features,
 .page_content,
-.title,
 .bg,
+.features_text {
+
+padding: 0;
+margin: 0;
+}
+
+#features {
+
+background-color: #11749e;
+height: 740px;
+width: auto;
+
+}
+
+
+
+.bg {
+
+position: absolute;
+font-family: 'Roboto Condensed', sans-serif;
+line-height: 210px;
+font-weight: bold;
+font-size: 247px;
+color: #3c8daf;
+text-align: center;
+text-transform: uppercase;
+padding-top: 90px;
+margin-left: 500px;
+
+}
+
+
+.features_text {
+
+position: relative;
+font-family: 'Gotham', sans-serif;
+line-height: 45px;
+font-weight: normal;
+font-size: 37px;
+color: #ffffff;
+text-align: center;
+text-transform: uppercase;
+padding-top: 160px;
+
+
+}
+
+
+.features_list,
+.features_item,
+.features_title,
+.features_link,
+.feature_icons,
+.features_description {
+
+padding: 0;
+margin: 0;
+
+}
+
+.features_list {
+
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+ list-style: none;
+  padding-top: 135px;
+
+}
+
+.features_item {
+
+width: 265px;
+
+
+
+}
+
+.features_link {
+
+margin: 0 15px;
+height: 135px;
+  
+text-decoration: none;
+text-align: center;
+}
+
+
+
+.feature_icons {
+
+background-color: #2e85aa;
+ width: 130px;
+ margin: 0 auto;
+ height: 130px;
+  border: 1px solid #2e85aa;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+ color: #ffffff;
+}
+
+.feature_icons:hover {
+	background-color: #ffffff;
+	border: 1px solid #ffffff;
+    border-radius: 50%;
+    color: #2e85aa;
+}
+
+
 .features_title {
 
-	padding: 0;
-	margin: 0;
+padding-top: 15px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  
+  font-family: 'Gotham', sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 36px;
+  text-transform: uppercase;
+   text-align: center;
+  
 }
 
-.page_content {
 
-	background-color: #11749e;
-	height: 740px;
-	width: auto;
 
+.features_description {
+ color: #ffffff;
+  
+  font-family: 'Gotham Book', sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  text-transform: capitalize;
+   text-align: center;
+  
 }
+
 
 /*  /FEATURES  */
