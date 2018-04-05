@@ -17,6 +17,12 @@
  <link rel="stylesheet" type="text/css" href="css/button.css">
 <link rel="stylesheet" type="text/css" href="css/features.css">
 <link rel="stylesheet" type="text/css" href="css/news_area.css">
+<link rel="stylesheet" type="text/css" href="css/blog.css">
+<link rel="stylesheet" type="text/css" href="css/review.css">
+<link rel="stylesheet" type="text/css" href="css/advantages.css">
+<link rel="stylesheet" type="text/css" href="css/team.css">
+<link rel="stylesheet" type="text/css" href="css/contact.css">
+<link rel="stylesheet" type="text/css" href="css/footer.css">
 </head>
 <body>
 
@@ -54,7 +60,9 @@
       <p class="title_text">Power by psdfreebies.com</p>
       <a class="btn btn-scroll" href="#features">
         <p class="btn_text">Scroll down</p>
-        <div class="btn_arrow"><span class="icon-keyboard_arrow_down"></span></a>
+        <div class="btn_arrow">
+          <span class="icon-keyboard_arrow_down"></span>
+        </a>
     </div>
   </div> 
 </header>
@@ -72,34 +80,34 @@
       	<h3 class="features_text">We Are An Awesome Agency</h3>
      </div>
 
-      <div class="container clearfix">
+      <div class="container">
       <ul class="features_list">
         <li class="features_item">
           <a class="features_link" href="#">
              <div class="feature_icons"><span class="icon-write"></span></div>
             <h3 class="features_title">Feature one</h3>
-            <p class="features_description">Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus</p>
+            <p class="features_description">Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus<br> vel augue laoreet rutrum faucibus</p>
           </a>
         </li>
       <li class="features_item">
           <a class="features_link" href="#">
            <div class="feature_icons"><span class="icon-write"></span></div>
             <h3 class="features_title">Feature two</h3>
-            <p class="features_description">Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus</p>
+            <p class="features_description">Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus<br> vel augue laoreet rutrum faucibus</p>
           </a>
         </li>
         <li class="features_item">
           <a class="features_link" href="#">
              <div class="feature_icons"><span class="icon-search"></span></div>
             <h3 class="features_title">Feature three</h3>
-            <p class="features_description">Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus</p>
+            <p class="features_description">Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus<br> vel augue laoreet rutrum faucibus</p>
           </a>
         </li>
         <li class="features_item">
           <a class="features_link" href="#">
             <div class="feature_icons"><span class="icon-bubble2"></span></div>
             <h3 class="features_title">Feature four</h3>
-            <p class="features_description">Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus</p>
+            <p class="features_description">Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus<br> vel augue laoreet rutrum faucibus</p>
           </a>
         </li>
       </ul>
@@ -112,56 +120,63 @@
 <section class="news_area">
 		<h2 class="visually-hidden">News area</h2>
 	
-  <article class="news_one">
-    <div class="news">
+  <div class="first_news">
+
+    <div class="first">
 		<a class="news_link" href="#">
-    <div class="news_time"><time>Jan 4, 2016</time>  In culture </div>
+    <span class="news_time"><time>Jan 4, 2016</time> &#124 In culture</span>
 		<h3 class="news_title">Akita Inu Dog</h3>
 		<p class="news_description">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
 		<p class="news_text">Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur </p>
 		</a>
 	</div>
-</article>
-  <div class="news_img img_one"></div>
-   <div class="news_img img_two"></div>
-   <article class="news_two">
-      <div class="news">
+  <div class="first_img"></div>
+</div>
+
+   <div class="second_news">
+
+     <div class="second_img"></div>
+      <div class="second">
 		<a class="news_link" href="#">
-    <div class="news_time"><time>Jan 4, 2016</time>  In culture </div>
+    <div class="news_time"><time>Jan 4, 2016</time>  &#124 In culture </div>
 		<h3 class="news_title">Akita Inu Dog</h3>
 		<p class="news_description">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
 		<p class="news_text">Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur </p>
 		</a>
 	</div>
-</article>
+</div>
 </section>
 <!-- /News area-->
 
 <!-- Blog -->
 <section class="blog">
-	<div class="container">
-    <div class="bg">B</div>
+	<div class="container clearfix">
+         <strong class="b">B</strong>
       	<h2 class="blog_title">Let's blog</h2>
       	<p class="blog_description">We love clean design and advanced digital solutions.</p>
   	<ul class="blog_list">
   		<li class="blog_item">
-  			<a href="#" class="blog_link"><img src="img/blog-1-4.jpg" alt="blog-image">
-  			<h4 class="blog_title text">Fresh Summer Campaign</h4>
+       <img class="blog_img" src="img/blog-1-4.jpg" alt="blog-image"> 
+       <a href="#" class="blog_link">
+  			<h4 class="blog_name">Fresh Summer Campaign</h4>
   			<p class="blog_text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue</p></a>
   		</li>
   		<li class="blog_item">
-  			<a href="#" class="blog_link"><img src="img/blog 2.jpg" alt="blog-image">
-  			<h4 class="blog_title text">Fresh Summer Campaign</h4>
+  			<img class="blog_img" src="img/blog 2.jpg" alt="blog-image">
+        <a href="#" class="blog_link">
+  			<h4 class="blog_name">Fresh Summer Campaign</h4>
   			<p class="blog_text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue</p></a>
   		</li>
   		<li class="blog_item">
-  			<a href="#" class="blog_link"><img src="img/blog 3.jpg" alt="blog-image">
-  			<h4 class="blog_title text">Fresh Summer Campaign</h4>
+  			<img class="blog_img" src="img/blog 3.jpg" alt="blog-image">
+        <a href="#" class="blog_link">
+  			<h4 class="blog_name">Fresh Summer Campaign</h4>
   			<p class="blog_text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue</p></a>
   		</li>
   		<li class="blog_item">
-  			<a href="#" class="blog_link"><img src="img/blog-1-4.jpg" alt="blog-image">
-  			<h4 class="blog_title text">Fresh Summer Campaign</h4>
+  			<img class="blog_img" src="img/blog-1-4.jpg" alt="blog-image">
+        <a href="#" class="blog_link">
+  			<h4 class="blog_name">Fresh Summer Campaign</h4>
   			<p class="blog_text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue</p></a>
   		</li>
   	</ul>
@@ -171,15 +186,17 @@
 
 <!-- Reviews -->
 <section class="review">
+  <div class="container clearfix">
   <h2 class="visually-hidden">Quick action area</h2>
 	<ul class="review_list">
-		<li class="review_item"><img src="img/Write copy.png" alt="review-icon">
+		<li class="review_item"><span class="icon-edit"></span>
 			<p class="review_description">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
 		</li>
-		<li class="review_item"><img src="img/Write copy.png" alt="review-icon">
+		<li class="review_item"><span class="icon-edit"></span>
 			<p class="review_description">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
 		</li>
 	</ul>
+</div>
 </section>
 <!-- /Reviews -->
 
@@ -189,40 +206,66 @@
 	<div class="container">
 		<h2 class="advantages_title">Akita Inu Dog</h2>
 		<p class="advantages_text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
-		</div>
-      <div class="advantages_item">Fully Responsive Design</div>
-			<div class="advantages_item">High Quality Code</div>
-			<div class="advantages_item">Different Headers & Layout</div>
+		
+    <ul class="advantages_list">
+      <li class="advantages_item">Fully Responsive Design</li>
+			<li class="advantages_item">High Quality Code</li>
+			<li class="advantages_item">Different Headers & Layout</li>
+</ul>
+</div>
+<span class="advantages_img"></span>
 </section>
 <!-- /Advantages -->
 
 <!-- Our Team -->
 <section class="team">
 	<div class="container">
+      <strong class="t">T</strong>
       <h2 class="team_title">Our Team</h2>
-      	<strong class="substrate">T</strong>
       	<p class="team_text">sales long tail influencer pitch release niche market.</p>
+      </div>
+      <div class="container_team container clearfix">
       	<ul class="team_list">
-      		<li class="team_workers">
+      		<li>
+            <figure class="workers">
       			<img src="img/John Snow.jpg" alt="John Snow">
-      			<a href="#" class="workers_name">John Snow</p>
+      			<figcaption class="workers_block">
+              <a class="team_workers" href="#">
+            <p class="workers_name">John Snow</p>
       			<p class="workers_position">CEO</p></a>
-      		</li>
-      		<li class="team_workers">
+          </figcaption>
+      		</figure>
+        </li>
+      		<li>
+             <figure class="workers">
       			<img src="img/Lady Sansa.jpg" alt="Lady Sansa">
-      			<a href="#" class="workers_name">Lady Sansa</p>
+            <figcaption class="workers_block">
+      			<a class="team_workers" href="#">
+            <p class="workers_name">Lady Sansa</p>
       			<p class="workers_position">WebDesigner</p></a>
-      		</li>
-      		<li class="team_workers">
+          </figcaption>
+      		</figure>
+        </li>
+      		<li>
+             <figure class="workers">
       			<img src="img/David Smith.jpg" alt="David Smith">
-      			<a href="#" class="workers_name">David Smith</p>
+            <figcaption class="workers_block">
+      			<a class="team_workers" href="#">
+            <p class="workers_name">David Smith</p>
       			<p class="workers_position">Photograther</p></a>
-      		</li>
-      		<li class="team_workers">
+          </figcaption>
+      		</figure>
+        </li>
+      		<li>
+             <figure class="workers">
       			<img src="img/Lady Sansa-p.jpg" alt="Lady Sansa">
-      			<a href="#" class="workers_name">Lady Sansa</p>
+            <figcaption class="workers_block">
+      			<a class="team_workers" href="#">
+            <p class="workers_name">Lady Sansa</p>
       			<p class="workers_position">Photograther</p></a>
-      		</li>
+          </figcaption>
+      		</figure>
+        </li>
       	</ul>
 	</div>
 </section>
@@ -230,17 +273,18 @@
 
 <!-- Contact area -->
 <section class="contact">
-	<div class="container">
-    <div class="bg">C</div>
+	<div class="container clearfix">
+    <strong class="c">C</strong>
       <h2 class="contact_title">We'd love to hear about your project.</h2>
-	</div>
+	
 	<form class="form">
-			<input type="text" placeholder="Name" class="cell">
-			<input type="email" placeholder="Email" class="cell">
-			<input type="tel" placeholder="Phone" class="cell">
-			<input type="text" placeholder="Message" class="cell">
-			<button type="submit" class="button act">Submit</button>
+			<input class="name" type="text" placeholder="Name" class="cell">
+			<input class="email" type="email" placeholder="Email" class="cell">
+			<input class="phone" type="tel" placeholder="Phone" class="cell">
+			<input class="message" type="text" placeholder="Message" class="cell">
+			<button type="submit" class="button_act">Submit</button>
 		</form>
+  </div>
 </section>
 <!-- /Contact area -->
   </main>
@@ -249,7 +293,7 @@
 
  <!-- Page Footer -->
  <footer class="footer">
- 	<div class="container map">
+ 	<div class="container_map">
  		<h2 class="visually-hidden">Road Map</h2> 		
  	</div>
  		<div class="container clearfix">
