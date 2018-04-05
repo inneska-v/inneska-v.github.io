@@ -1,0 +1,140 @@
+<!-- Our Team -->
+
+.team,
+.t,
+.container_team,
+.team_title,
+.team_text,
+.workers_block,
+.team_workers,
+.workers_block,
+.workers,
+.workers_name,
+.workers_position {
+
+padding: 0;
+margin: 0;
+}
+
+.team {
+padding-top: 70px;
+  padding-bottom: 125px;
+  text-align: center;
+
+}
+
+.t {
+position: absolute;
+font-family: 'Roboto Condensed', sans-serif;
+line-height: 210px;
+font-weight: bold;
+font-size: 247px;
+color: #d7d7d7;
+text-align: center;
+text-transform: uppercase;
+margin-left: -70px;
+}
+
+.team_title {
+position: relative;
+font-family: 'Gotham', sans-serif;
+  font-weight: normal;
+  font-size: 37px;
+  line-height: 45px;
+  text-transform: uppercase;
+  padding-top: 78px;
+  color: #222222;
+}
+
+
+
+.team_text {
+
+	position: relative;
+font-family: 'Gotham Book', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 37px;
+   margin: 0 15px;
+   padding-top: 115px;
+   padding-bottom: 70px;
+   color: #222222;
+}
+
+
+
+.container_team {
+position: relative;
+ align-items: center;
+
+}
+
+.team_list {
+
+display: flex;
+justify-content: center;
+flex-wrap: nowrap;
+list-style: none;
+ text-decoration: none;
+  padding-top: 10px;
+}
+
+.workers {
+
+display: block;
+height: 415px;
+width: 270px;
+margin: 0 15px;
+background-repeat: no-repeat;
+background-position: center;
+overflow: hidden;
+}
+
+.workers_block {
+
+	position: absolute;
+	display: block;
+	background-color: #fff;
+	border: 1px solid #ffffff;
+	width: 215px;
+	height: 80px;
+	align-items: center;
+	margin-left: 26px;
+	margin-top: -45px;
+
+}
+
+.team_workers {
+text-decoration: none;
+color: #11749e;
+line-height: 0;
+font-size: 0;
+vertical-align: middle;
+
+}
+
+
+
+
+.workers_name {
+font-family: 'Gotham', sans-serif;
+line-height: 24px;
+font-weight: normal;
+font-size: 20px;
+color: #11749e;
+text-transform: uppercase;
+margin: 10px auto;
+
+}
+
+.workers_position {
+font-family: 'Gotham', sans-serif;
+line-height: 10px;
+font-weight: normal;
+font-size: 15px;
+color: #000;
+margin: 0 auto;
+
+}
+
+<!-- /Our Team -->

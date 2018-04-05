@@ -1,0 +1,59 @@
+<!-- Contact area -->
+
+.contact,
+.c,
+.contact_title,
+.form,
+.button_act {
+
+padding: 0;
+margin: 0;
+
+}
+
+.contact {
+position: relative;
+  height: 845px;
+  width: auto;   
+  background: url(../img/bg-contact.jpg) no-repeat center top/cover;
+  color: #fff;
+  text-align: center;
+}
+
+.c {
+position: absolute;
+font-family: 'Roboto Condensed', sans-serif;
+line-height: 210px;
+font-weight: bold;
+font-size: 247px;
+color: #343434;
+color: rgba(52,52,52,0.7);
+text-align: center;
+text-transform: uppercase;
+margin-left: -70px;
+padding-top: 150px;
+}
+
+.contact_title {
+position: relative;
+font-family: 'Gotham', sans-serif;
+  font-weight: normal;
+  font-size: 37px;
+  line-height: 45px;
+  text-transform: uppercase;
+  padding-top: 200px;
+  
+}
+
+.form {
+display: inline-block;
+	padding-top: 150px;
+}
+
+.form input {
+display: block;
+background-color: transparent;
+height: 45px;
+width: 365px; 
+}
+<!-- /Contact area -->

@@ -1,0 +1,50 @@
+ <!-- Page Footer -->
+
+.footer,
+.container_map,
+.credits,
+.design {
+
+padding: 0;
+margin: 0;
+}
+
+.footer {
+
+	background-color: #222222;
+	color: #fff;
+	height: 445px;
+}
+
+
+.container_map {
+
+height: 330px;
+  width: auto;   
+  background: url(../img/map.jpg) no-repeat center top/cover;
+}
+
+
+.credits {
+float: left;
+display: block;
+font-family: 'Roboto Regular', sans-serif;
+font-weight: normal;
+  font-size: 13px;
+ line-height: 36px;
+ padding-top: 55px;
+}
+
+.design {
+float: right;
+display: block;
+font-family: 'Roboto Regular', sans-serif;
+font-weight: normal;
+  font-size: 13px;
+ line-height: 36px;
+ padding-top: 55px;
+}
+
+
+
+  <!-- /Page Footer -->

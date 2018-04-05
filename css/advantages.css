@@ -1,0 +1,80 @@
+
+<!-- Advantages -->
+
+.advantages,
+.advantages_title,
+.advantages_text,
+.advantages_img,
+.advantages_item,
+.advantages_list {
+
+padding: 0;
+margin: 0;
+}
+
+
+.advantages {
+ 
+height: 845px;
+width: auto;
+background: url(../img/bg-advantages.jpg) no-repeat center top/cover;
+color: #ffffff;
+}
+
+.advantages .container {
+
+display: flex;
+flex-direction: column; 
+justify-content: flex-start;
+
+}  
+padding-top: 19px;
+  padding-bottom: 17px;
+  padding-left: 16px;
+ 
+
+.advantages_img {
+	
+  background-image: url("../img/phone.png");
+  background-repeat: no-repeat;
+  background-position: 62px bottom;
+z-index: 1
+}
+
+
+
+.advantages_title {
+
+font-family: 'Gotham', sans-serif;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.advantages_text {
+
+font-family: 'Gotham Book', sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+   width: 500px;  
+}
+
+.advantages_list {
+
+	
+	list-style: none;
+  padding-left: 50px;
+}
+
+.advantages_item {
+
+font-family: 'Gotham', sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+  line-height: 24px;
+ text-transform: uppercase;
+}
+
+<!-- /Advantages -->

@@ -1,0 +1,128 @@
+/*  BLOG  */
+
+.blog,
+.b,
+.blog_title,
+.blog_description,
+.blog_list,
+.blog_name,
+.blog_link,
+.blog_list,
+.blog_item,
+.blog_text {
+
+padding: 0;
+margin: 0;
+}
+
+
+.blog {
+  
+  padding-top: 90px;
+  padding-bottom: 105px;
+  text-align: center;
+  
+}
+
+.blog .container {
+  
+  position: relative;
+  
+}
+
+.b {
+position: absolute;
+font-family: 'Roboto Condensed', sans-serif;
+line-height: 210px;
+font-weight: bold;
+font-size: 247px;
+color: #d7d7d7;
+text-align: center;
+text-transform: uppercase;
+margin-left: -70px;
+}
+
+.blog_title {
+position: relative;
+font-family: 'Gotham', sans-serif;
+ color: #222222;
+  font-weight: normal;
+  font-size: 37px;
+  line-height: 45px;
+  text-transform: uppercase;
+  padding-top: 78px;
+  
+}
+
+.blog_description {
+	font-family: 'Gotham Book', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 37px;
+   margin: 0 15px;
+   padding-top: 115px;
+   padding-bottom: 70px;
+   color: #222222;
+}
+
+
+.blog_list {
+
+display: flex;
+justify-content: center;
+flex-wrap: nowrap;
+ list-style: none;
+ 
+}
+
+.blog_item {
+
+width: 270px;
+margin: 0 15px;
+}
+
+.blog_img {
+
+display: inline-block;
+background-repeat: no-repeat;
+height: 280px;
+overflow: hidden;
+
+  
+}
+
+.blog_name {
+
+	color: #11749e;
+  font-family: 'Gotham', sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 36px;
+  text-transform: uppercase;
+   text-align: center;
+   padding: 15px 0 25px 0;
+
+}
+
+.blog_link {
+align-items: center;
+text-decoration: none;
+color: inherit;
+margin: 0 15px;
+height: 500px;
+}
+
+
+.blog_text {
+
+width: 244px;
+	color: #222222;
+	font-family: 'Gotham Book', sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+align-items: center;
+margin: 0 15px;
+  
+}
+/*  /BLOG  */

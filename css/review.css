@@ -1,0 +1,54 @@
+<!-- Reviews -->
+
+.review,
+.review_list,
+.review_item,
+.icon-edit,
+.review_description {
+
+padding: 0;
+margin: 0;
+
+}
+
+.review {
+padding-top: 100px;
+padding-bottom: 150px;
+background-color: #11749e;
+}
+
+.review_list {
+
+display: flex;
+justify-content: space-between;
+flex-wrap: nowrap;
+list-style: none;
+}
+
+
+.review_item {
+
+display: inline-flex;
+align-items: center;
+width: 545px;
+
+}
+
+.icon-edit {
+font-size: 70px;
+color: #ffffff;
+
+
+}
+
+.review_description {
+
+	font-family: 'Gotham Book', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 24px;
+   color: #ffffff;
+   width: 418px;
+   padding-left: 25px
+}
+<!-- /Reviews -->
