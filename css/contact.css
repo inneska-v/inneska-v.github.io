@@ -4,6 +4,7 @@
 .c,
 .contact_title,
 .form,
+.cell,
 .button_act {
 
 padding: 0;
@@ -46,14 +47,56 @@ font-family: 'Gotham', sans-serif;
 }
 
 .form {
-display: inline-block;
-	padding-top: 150px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+margin: 0 auto;
+	padding-top: 120px;
+	height: 240px;
+	width: 1175px;
 }
 
-.form input {
-display: block;
+
+.cell {
+box-sizing: border-box;
 background-color: transparent;
 height: 45px;
 width: 365px; 
+
+}
+
+.cell:nth-child(2) {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.cell:nth-child(4) {
+
+height: 150px;
+width: 1145px;
+padding-top: 35px;
+
+}
+
+.button_act {
+	display: block;
+	position: absolute;
+	cursor: pointer;
+	font-size: 24px;
+	width: 225px;
+	height: 65px;
+	box-sizing: border-box;
+	background-color: #11749e;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'Gotham Regular', sans-serif;
+	 bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  margin-bottom: 100px;
+	border: none;
+
+
 }
 <!-- /Contact area -->

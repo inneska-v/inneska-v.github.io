@@ -2,10 +2,11 @@
 <!-- Advantages -->
 
 .advantages,
+.advantages_wrap,
 .advantages_title,
 .advantages_text,
 .advantages_img,
-.advantages_item,
+.advantages_item_first,
 .advantages_list {
 
 padding: 0;
@@ -24,21 +25,23 @@ color: #ffffff;
 .advantages .container {
 
 display: flex;
-flex-direction: column; 
-justify-content: flex-start;
+flex-wrap: wrap;
+justify-content: space-around;
 
+padding-bottom: 100px;
+padding-top: 100px;
 }  
-padding-top: 19px;
-  padding-bottom: 17px;
-  padding-left: 16px;
- 
+
+ .advantages_wrap {
+   padding-top: 110px;
+ height: 400px;
+ width: 500px;
+ }
 
 .advantages_img {
+  display: flex;
+justify-content: flex-end;
 	
-  background-image: url("../img/phone.png");
-  background-repeat: no-repeat;
-  background-position: 62px bottom;
-z-index: 1
 }
 
 
@@ -50,6 +53,7 @@ font-family: 'Gotham', sans-serif;
   font-size: 25px;
   line-height: 36px;
   text-transform: uppercase;
+  padding-bottom: 30px;
 }
 
 .advantages_text {
@@ -59,22 +63,56 @@ font-family: 'Gotham Book', sans-serif;
   font-size: 15px;
   line-height: 24px;
    width: 500px;  
+   padding-bottom: 60px;
 }
 
 .advantages_list {
 
-	
-	list-style: none;
-  padding-left: 50px;
-}
-
-.advantages_item {
-
-font-family: 'Gotham', sans-serif;
+	display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+	font-family: 'Gotham', sans-serif;
   font-weight: 200;
   font-size: 15px;
   line-height: 24px;
  text-transform: uppercase;
+;
+  
 }
 
+.advantages_item_first {
+
+display: block;
+box-sizing: content-box;
+border: 5px solid transparent;
+width: 370px;
+height: 30px;
+background-color: #11749e;
+margin-bottom: 20px;
+padding-top: 10px;
+}
+
+.advantages_item_second {
+
+display: block;
+box-sizing: content-box;
+border: 5px solid transparent;
+width: 400px;
+height: 30px;
+background-color: #11749e;
+margin-bottom: 20px;
+padding-top: 10px;
+}
+
+.advantages_item_third {
+
+display: block;
+box-sizing: content-box;
+border: 5px solid transparent;
+width: 430px;
+height: 30px;
+background-color: #11749e;
+padding-top: 10px;
+
+}
 <!-- /Advantages -->
