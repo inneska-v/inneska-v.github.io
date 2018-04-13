@@ -44,7 +44,7 @@ margin-left: -70px;
 
 .blog_title {
 position: relative;
-font-family: 'Gotham', sans-serif;
+font-family: 'Gotham Medium', sans-serif;
  color: #222222;
   font-weight: normal;
   font-size: 37px;
@@ -55,6 +55,7 @@ font-family: 'Gotham', sans-serif;
 }
 
 .blog_description {
+
 	font-family: 'Gotham Book', sans-serif;
   font-weight: 300;
   font-size: 30px;
@@ -87,6 +88,7 @@ display: inline-block;
 background-repeat: no-repeat;
 height: 280px;
 overflow: hidden;
+max-height: 100%;
 
   
 }
@@ -94,7 +96,7 @@ overflow: hidden;
 .blog_name {
 
 	color: #11749e;
-  font-family: 'Gotham', sans-serif;
+  font-family: 'Gotham Medium', sans-serif;
   font-weight: normal;
   font-size: 18px;
   line-height: 36px;
@@ -104,7 +106,9 @@ overflow: hidden;
 
 }
 
+
 .blog_link {
+
 align-items: center;
 text-decoration: none;
 color: inherit;
@@ -124,5 +128,11 @@ width: 244px;
 align-items: center;
 margin: 0 15px;
   
+}
+
+
+.blog_text:hover {
+  color: #11749e;
+  transition: 0.5s;
 }
 /*  /BLOG  */

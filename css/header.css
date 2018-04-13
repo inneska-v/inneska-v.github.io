@@ -1,15 +1,4 @@
 
-/*  FONTS  */
-
-@font-face {
-font-family: 'Gotham'; 
-src: url('../fonts/Gotham/GothamBold.ttf');
-src: url('../fonts/Gotham/GothamBook.ttf');
-src: url('../fonts/Gotham/GothamMedium.ttf');
-}
-
-/*  /FONTS  */
-
 /*  HEADER  */
 
 
@@ -34,6 +23,7 @@ height: 880px;
 }
 
 .container_box {
+
   height: 115px;
   border-bottom: #848484 1px solid;
 }
@@ -124,7 +114,7 @@ padding-left: 230px;
 .navigation_item:hover {
   
   border-bottom: 3px solid #11749e;
-  
+  transition: 0.5s;
 }
 
 
@@ -154,7 +144,7 @@ padding-left: 230px;
 .social_icons:hover {
   
   color: #11749e;
-  
+  transition: 0.5s;
 }
 
 /*  /SOCIAL-BLOCK  */
@@ -191,7 +181,6 @@ text-transform: uppercase;
 padding-top: 265px;
 text-align: center;
 
-
 }
 
 .title_text {
@@ -221,7 +210,7 @@ text-align: center;
 }
 
 .btn_text:hover {
-
+transition: 0.5s;
   color: #11749e;
 }
 

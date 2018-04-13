@@ -38,7 +38,7 @@ margin-left: 500px;
 .features_text {
 
 position: relative;
-font-family: 'Gotham', sans-serif;
+font-family: 'Gotham Medium', sans-serif;
 line-height: 45px;
 font-weight: normal;
 font-size: 37px;
@@ -46,7 +46,6 @@ color: #ffffff;
 text-align: center;
 text-transform: uppercase;
 padding-top: 160px;
-
 
 }
 
@@ -113,6 +112,7 @@ background-color: #2e85aa;
 	border: 1px solid #ffffff;
     border-radius: 50%;
     color: #2e85aa;
+    transition: 0.5s;
 }
 
 
@@ -122,7 +122,7 @@ padding-top: 15px;
   margin-bottom: 20px;
   color: #ffffff;
   
-  font-family: 'Gotham', sans-serif;
+  font-family: 'Gotham Medium', sans-serif;
   font-weight: normal;
   font-size: 18px;
   line-height: 36px;

@@ -1,11 +1,26 @@
+
+/*  FONTS  */
+
+@font-face {
+font-family: 'Gotham'; 
+src: url('../fonts/gotham/GothamBook.ttf');
+src: url('../fonts/gotham/GothamMedium.ttf');
+src: url('../fonts/gotham/GothamBold.ttf');
+}
+
+/*  /FONTS  */
+
+
+
+
 /*  LAYOUT  */
 
 html, body {
   
-  min-width: 1200px;
-  width: 100%;
-  background-color: #ffffff;
-  color: #000000;
+min-width: 1200px;
+width: 100%;
+background-color: #ffffff;
+color: #000000;
   
 }
 

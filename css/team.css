@@ -36,8 +36,9 @@ margin-left: -70px;
 }
 
 .team_title {
+
 position: relative;
-font-family: 'Gotham', sans-serif;
+font-family: 'Gotham Medium', sans-serif;
   font-weight: normal;
   font-size: 37px;
   line-height: 45px;
@@ -104,7 +105,14 @@ overflow: hidden;
 
 }
 
+.workers_block:hover {
+
+border: 1px solid #11749e;
+transition: 0.5s;
+}
+
 .team_workers {
+
 text-decoration: none;
 color: #11749e;
 line-height: 0;
@@ -117,7 +125,8 @@ vertical-align: middle;
 
 
 .workers_name {
-font-family: 'Gotham', sans-serif;
+
+font-family: 'Gotham Medium', sans-serif;
 line-height: 24px;
 font-weight: normal;
 font-size: 20px;
@@ -128,7 +137,8 @@ margin: 10px auto;
 }
 
 .workers_position {
-font-family: 'Gotham', sans-serif;
+
+font-family: 'Gotham Medium', sans-serif;
 line-height: 10px;
 font-weight: normal;
 font-size: 15px;

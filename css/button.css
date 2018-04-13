@@ -29,7 +29,7 @@ margin-left: 570px;
 .btn_arrow:hover {
 
 border: 1px solid #11749e;
-
+transition: 0.5s;
 }
 
 .icon-keyboard_arrow_down {
@@ -43,46 +43,45 @@ display: flex;
 }
 
 .icon-keyboard_arrow_down:hover {
-
+transition: 0.5s;
 color: #11749e;
 }
 
-
-
-
-.btn-middle {
+.button_act {
   
-  width: 170px;
-  border-radius: 3px;
-  border-bottom: 3px solid #736357;
-  background-color: #998675;
-
-  font-size: 14px;
-  line-height: 50px;
-  text-transform: uppercase;
-  
-}
-
-.btn-action,
-.btn-filter {
-  
-  width: 170px;
-  border-radius: 3px;
-  border-bottom: 3px solid #736357;
-  background-color: #998675;
-  color: #ffffff;
+  display: block;
+  position: absolute;
   cursor: pointer;
-
-  font-family: 'Raleway', sans-serif;
-  font-weight: 800;
-  font-size: 14px;
-  line-height: 47px;
+  font-size: 24px;
+  width: 225px;
+  height: 65px;
+  box-sizing: border-box;
+  background-color: #11749e;
+  color: #fff;
   text-transform: uppercase;
-  text-align: center;
-  
+  font-family: 'Gotham Medium', sans-serif;
+   bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  border: none;
+
 }
+
+
+
+.button_act:hover {
+  background-color: #fff;
+  color: #11749e;
+  transition: 0.5s;
+}
+
+
+
+
+
 
 /*  /BUTTON  */
 
 
-font-family: 'Roboto', sans-serif;

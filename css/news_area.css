@@ -38,12 +38,12 @@ background-color: #222222;
 
 width: 800px;
 padding-top: 80px;
-
 color: #ffffff;
 
 }
 
 .news_wrap_first {
+
   display: block;
   width: 420px;
   height: 250px;
@@ -55,20 +55,25 @@ color: #ffffff;
 	width: 800px;
   display: block;
   max-width: 100%;
-  max-height: : 100%;
+  max-height: 100%;
    overflow: hidden;
 background-image: url(../img/news1.jpg);
 background-repeat: no-repeat;
 background-position: center; 
 }
 
-.news_link{
+.news_link {
 
 color: inherit;
 	text-decoration: none;
 	height: 250px;
 	width: 470px;
 	align-items: left;
+}
+
+.news_link:hover {
+transition: 0.5s;
+color: #11749e;
 }
 
 .second_news {
@@ -100,7 +105,7 @@ padding-bottom: 110px;
 	width: 800px;
   display: block;
   max-width: 100%;
-  max-height: : 100%;
+  max-height: 100%;
    overflow: hidden;
 background-image: url(../img/news2.jpg);
 background-repeat: no-repeat;
@@ -111,7 +116,7 @@ background-position: center;
 
 .news_title {
 
-font-family: 'Gotham', sans-serif;
+font-family: 'Gotham Medium', sans-serif;
   font-weight: normal;
   font-size: 25px;
   line-height: 36px;
@@ -131,7 +136,7 @@ font-family: 'Gotham Book', sans-serif;
 }
 
 
-	.news_text {
+.news_text {
     padding-top: 25px;
 }
 /*  /NEWS AREA  */

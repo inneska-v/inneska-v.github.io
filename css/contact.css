@@ -13,6 +13,7 @@ margin: 0;
 }
 
 .contact {
+
 position: relative;
   height: 845px;
   width: auto;   
@@ -22,6 +23,7 @@ position: relative;
 }
 
 .c {
+
 position: absolute;
 font-family: 'Roboto Condensed', sans-serif;
 line-height: 210px;
@@ -36,8 +38,9 @@ padding-top: 150px;
 }
 
 .contact_title {
+
 position: relative;
-font-family: 'Gotham', sans-serif;
+font-family: 'Gotham Medium', sans-serif;
   font-weight: normal;
   font-size: 37px;
   line-height: 45px;
@@ -47,17 +50,20 @@ font-family: 'Gotham', sans-serif;
 }
 
 .form {
+
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 margin: 0 auto;
-	padding-top: 120px;
-	height: 240px;
-	width: 1175px;
+padding-top: 120px;
+height: 240px;
+width: 1175px;
+
 }
 
 
 .cell {
+
 box-sizing: border-box;
 background-color: transparent;
 height: 45px;
@@ -65,12 +71,13 @@ width: 365px;
 
 }
 
-.cell:nth-child(2) {
+.cell_email {
+
 	margin-left: 25px;
 	margin-right: 25px;
 }
 
-.cell:nth-child(4) {
+.cell_message {
 
 height: 150px;
 width: 1145px;
@@ -78,25 +85,6 @@ padding-top: 35px;
 
 }
 
-.button_act {
-	display: block;
-	position: absolute;
-	cursor: pointer;
-	font-size: 24px;
-	width: 225px;
-	height: 65px;
-	box-sizing: border-box;
-	background-color: #11749e;
-	color: #fff;
-	text-transform: uppercase;
-	font-family: 'Gotham Regular', sans-serif;
-	 bottom: 0;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  margin-bottom: 100px;
-	border: none;
 
 
-}
 <!-- /Contact area -->
