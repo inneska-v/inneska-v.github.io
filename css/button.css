@@ -15,23 +15,6 @@
 
 
 
-.btn_arrow {
-width: 60px;
-height: 60px;
-border-radius: 50%;
-border: 1px solid #ffffff;
-opacity: 100%;  
-cursor: pointer;
-margin-left: 570px;
-
-}
-
-.btn_arrow:hover {
-
-border: 1px solid #11749e;
-transition: 0.5s;
-}
-
 .icon-keyboard_arrow_down {
 
 display: flex;

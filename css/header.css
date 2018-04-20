@@ -3,7 +3,7 @@
 
 
 .page_header,
-.container_box,
+.page_header-sticky,
 .brand,
 .brand_link,
 .brand_logo,
@@ -17,16 +17,36 @@
 }
 
 .page_header {
+
+    display: block;
+    width: 100%;
+    height: 110px;
+    padding-top: 5px;
+    margin-bottom: -115px;
+    border-bottom-width : 1px;
+    border-bottom-style : solid;  
+    border-bottom-color : #7b7b7b;
+    background-color: transparent;
   
-background: url(../img/bg-header.jpg) no-repeat center top/cover;
-height: 880px; 
+    position: relative;
+    z-index: 1;
 }
 
-.container_box {
-
-  height: 115px;
-  border-bottom: #848484 1px solid;
+.page_header-sticky {
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  
+  padding: 0 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 10;
+  transition: background-color 1s;
+  
 }
+
+
 
 /*  /HEADER  */
 
@@ -37,7 +57,7 @@ height: 880px;
   
   float: left;
  margin-top: 15px;
-margin-left: 15px;
+margin-left: 10px;
   
 }
 
@@ -90,7 +110,7 @@ padding-left: 230px;
 
 .navigation_item {
 
-  padding: 35px 20px;
+  padding: 30px 20px;
   border: 3px solid hidden;
   
 }
@@ -114,7 +134,7 @@ padding-left: 230px;
 .navigation_item:hover {
   
   border-bottom: 3px solid #11749e;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 
@@ -124,7 +144,8 @@ padding-left: 230px;
 
 
 .social_block {
-  
+
+  display: block;
   float: right;
   width: 145px;
   margin-top: 50px;
@@ -144,7 +165,7 @@ padding-left: 230px;
 .social_icons:hover {
   
   color: #11749e;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 /*  /SOCIAL-BLOCK  */
@@ -153,7 +174,7 @@ padding-left: 230px;
 /*  PAGE-CONTENT/ TITLE  */
 
 .page_content,
-.title,
+.header_title,
 .title_name,
 .title_text,
 .btn_text,
@@ -165,21 +186,31 @@ padding-left: 230px;
   
 }
 
-.title {
+.header_title {
 
-text-align: center
+background: url(../img/bg-header.jpg) no-repeat center top/cover;
+height: 890px; 
+width: 100%;
+
+}
+
+.header_title .container {
+  
+position: absolute;
+text-align: center;
+
 }
 
 .title_name {
-  
+
 font-family: 'Gotham Bold', sans-serif;
 color: #FFF;
 font-size: 147px;
 font-weight: bold;
 line-height: 135px;
 text-transform: uppercase;
-padding-top: 265px;
-text-align: center;
+padding-top: 390px;
+
 
 }
 
@@ -191,8 +222,8 @@ font-size: 25px;
 line-height: 50px;
 font-weight: normal;
 text-transform: uppercase;
-letter-spacing: 17px;
-text-align: center;
+letter-spacing: 18px;
+margin-left: 30px;
 
 }
 
@@ -210,8 +241,32 @@ text-align: center;
 }
 
 .btn_text:hover {
-transition: 0.5s;
-  color: #11749e;
+
+transition: 0.3s;
+color: #11749e;
+
+}
+
+
+.btn_arrow {
+
+width: 60px;
+height: 60px;
+border-radius: 50%;
+border: 1px solid #ffffff;
+opacity: 100%;  
+cursor: pointer;
+top:0;
+right: 0;
+left: 0;
+margin-bottom: 100px;
+
+}
+
+.btn_arrow:hover {
+
+border: 1px solid #11749e;
+transition: 0.3s;
 }
 
 /*  /PAGE-CONTENT/ TITLE  */
