@@ -11,10 +11,10 @@
 
 <!-- CSS -->
 <link rel="stylesheet" type="text/css" href="css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="css/icomoon.css">
- <link rel="stylesheet" type="text/css" href="css/layout.css">
- <link rel="stylesheet" type="text/css" href="css/header.css">
- <link rel="stylesheet" type="text/css" href="css/button.css">
+<link rel="stylesheet" type="text/css" href="css/icomoon.css">
+<link rel="stylesheet" type="text/css" href="css/layout.css">
+<link rel="stylesheet" type="text/css" href="css/header.css">
+<link rel="stylesheet" type="text/css" href="css/button.css">
 <link rel="stylesheet" type="text/css" href="css/features.css">
 <link rel="stylesheet" type="text/css" href="css/news_area.css">
 <link rel="stylesheet" type="text/css" href="css/blog.css">
@@ -24,12 +24,12 @@
 <link rel="stylesheet" type="text/css" href="css/contact.css">
 <link rel="stylesheet" type="text/css" href="css/footer.css">
 </head>
-<body>
+
+<body class="no-js">
 
 <!-- Page Header -->
  <header class="page_header">
-  <div class="container_box">
-    <div class="container clearfix">
+  <div class="container clearfix">
 <div class="brand">
  	<a class="brand_link"><img class="brand_logo" src="img/Logo.png" alt="Creatives Logo">
  	<h2 class="brand_name visually-hidden">Creatives Agency</h2></a>
@@ -52,19 +52,7 @@
 	<a class="social_icons" href="#"><span class="icon-skype"></span></a>
 	<a class="social_icons" href="#"><span class="icon-linkedin2"></span></a>
 </div>
- </div>
 </div>
-  <div class="title">
-    <div class="container clearfix"> 
-      <h1 class="title_name">Creatives</h1>
-      <p class="title_text">Power by psdfreebies.com</p>
-      <a class="btn btn-scroll" href="#features">
-        <p class="btn_text">Scroll down</p>
-        <div class="btn_arrow">
-          <span class="icon-keyboard_arrow_down"></span>
-        </a>
-    </div>
-  </div> 
 </header>
 <!-- /Page Header -->
 
@@ -72,12 +60,24 @@
 <!-- Page Main -->
   <main class="page_content">
 
+ <section class="header_title">
+    <div class="container clearfix"> 
+      <h1 class="title_name">Creatives</h1>
+      <p class="title_text">Power by psdfreebies.com</p>
+      <a class="btn btn-scroll" href="#features">
+        <p class="btn_text">Scroll down</p>
+        <div class="btn_arrow">
+          <span class="icon-keyboard_arrow_down"></span>
+        </div>
+      </a>
+    </div>
+</section>
  <!-- Features -->
-    <section id="features"> 
+    <section class="features" id="features"> 
     <div class="container clearfix">
       <h2 class="visually-hidden">About agency</h2>
-        <div class="bg">W</div>
-      	<h3 class="features_text">We Are An Awesome Agency</h3>
+        <strong class="w">W</strong>
+      	<h2 class="features_text">We Are An Awesome Agency</h2>
      </div>
 
       <div class="container">
@@ -161,7 +161,7 @@
   			<p class="blog_text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue</p></a>
   		</li>
   		<li class="blog_item">
-  			<img class="blog_img" src="img/blog 2.jpg" alt="blog-image">
+  			<img class="blog_img" src="img/blog 2.png" alt="blog-image">
         <a href="#" class="blog_link">
   			<h4 class="blog_name">Fresh Summer Campaign</h4>
   			<p class="blog_text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue</p></a>
@@ -229,7 +229,7 @@
       	<ul class="team_list">
       		<li>
             <figure class="workers">
-      			<img src="img/John Snow.jpg" alt="John Snow">
+      			<img src="img/John_Show.png" alt="John Snow">
       			<figcaption class="workers_block">
               <a class="team_workers" href="#">
             <p class="workers_name">John Snow</p>
@@ -239,7 +239,7 @@
         </li>
       		<li>
              <figure class="workers">
-      			<img src="img/Lady Sansa.jpg" alt="Lady Sansa">
+      			<img src="img/Lady Sansa.png" alt="Lady Sansa">
             <figcaption class="workers_block">
       			<a class="team_workers" href="#">
             <p class="workers_name">Lady Sansa</p>
@@ -249,7 +249,7 @@
         </li>
       		<li>
              <figure class="workers">
-      			<img src="img/David Smith.jpg" alt="David Smith">
+      			<img src="img/David_Smith.png" alt="David Smith">
             <figcaption class="workers_block">
       			<a class="team_workers" href="#">
             <p class="workers_name">David Smith</p>
@@ -259,7 +259,7 @@
         </li>
       		<li>
              <figure class="workers">
-      			<img src="img/Lady Sansa-p.jpg" alt="Lady Sansa">
+      			<img src="img/Lady_Sansa_p.png" alt="Lady Sansa">
             <figcaption class="workers_block">
       			<a class="team_workers" href="#">
             <p class="workers_name">Lady Sansa</p>
@@ -298,12 +298,18 @@
  		<h2 class="visually-hidden">Road Map</h2> 		
  	</div>
  		<div class="container clearfix">
- 			<div class="credits">© 2016 PSDfreebies.com - All Right Reserved </div>
+ 			<div class="credits">© 2016 PSDfreebies.com - All Right Reserved 
+      </div>
  			<a href="#" class="design">Designed by:<img src="img/bee.png" alt="bee">PSDFreebies.com</a>
 </div>
   </footer>
 <!-- /Page Footer -->
 
-	
+	<!--  JAVA SCRIPTS  -->
+
+<script type="text/javascript" src="js/no-js.js"></script>
+<script type="text/javascript" src="js/sticky-header.js"></script>
+
+
 </body>
 </html>
