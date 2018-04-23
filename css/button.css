@@ -54,7 +54,8 @@ color: #11749e;
 
 
 
-.button_act:hover {
+.button_act:hover,
+.button_act:focus {
   background-color: #fff;
   color: #11749e;
   transition: 0.5s;

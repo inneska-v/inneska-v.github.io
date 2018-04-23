@@ -24,13 +24,9 @@ margin: 0;
   
 }
 
-.blog .container {
-  
-  position: relative;
-  
-}
 
 .b {
+
 position: absolute;
 font-family: 'Roboto Condensed', sans-serif;
 line-height: 210px;
@@ -40,9 +36,11 @@ color: #d7d7d7;
 text-align: center;
 text-transform: uppercase;
 margin-left: -70px;
+
 }
 
 .blog_title {
+
 position: relative;
 font-family: 'Gotham Medium', sans-serif;
  color: #222222;
@@ -64,6 +62,7 @@ font-family: 'Gotham Medium', sans-serif;
    padding-top: 115px;
    padding-bottom: 70px;
    color: #222222;
+
 }
 
 
@@ -125,9 +124,9 @@ width: 244px;
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
-align-items: center;
+text-align: center;
 margin: 0 15px;
-text-align: left;
+
   
 }
 

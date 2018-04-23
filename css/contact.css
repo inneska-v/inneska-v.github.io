@@ -64,10 +64,16 @@ width: 1175px;
 
 .cell {
 
+display: block;
 box-sizing: border-box;
 background-color: transparent;
 height: 45px;
 width: 365px; 
+color: #ffffff;
+border: 2px solid #fff;
+
+  font-size: 16px;
+  line-height: 32px;
 
 }
 
@@ -85,6 +91,10 @@ padding-top: 35px;
 
 }
 
+.cell:focus {
 
+border: 2px solid #11749e;
+
+}
 
 <!-- /Contact area -->
