@@ -35,7 +35,7 @@
  	<h2 class="brand_name visually-hidden">Creatives Agency</h2></a>
  </div>
 
- <nav class="navigation_wrapper">
+<nav class="navigation_wrapper">
  	<ul class="navigation navigation-main">
  		<li class="navigation_item"><a href="#" class="navigation_link">Home</a></li>
  		<li class="navigation_item"><a href="#" class="navigation_link">Pages</a></li>
@@ -60,11 +60,11 @@
 <!-- Page Main -->
   <main class="page_content">
 
- <section class="header_title">
+ <section class="header_title" id="toup">
     <div class="container clearfix"> 
       <h1 class="title_name">Creatives</h1>
       <p class="title_text">Power by psdfreebies.com</p>
-      <a class="btn btn-scroll" href="#features">
+      <a class="btn btn-scroll scrollto" href="#features">
         <p class="btn_text">Scroll down</p>
         <div class="btn_arrow">
           <span class="icon-keyboard_arrow_down"></span>
@@ -73,7 +73,7 @@
     </div>
 </section>
  <!-- Features -->
-    <section class="features" id="features"> 
+    <section class="features"> 
     <div class="container clearfix">
       <h2 class="visually-hidden">About agency</h2>
         <strong class="w">W</strong>
@@ -81,7 +81,7 @@
      </div>
 
       <div class="container">
-      <ul class="features_list">
+      <ul class="features_list" id="features">
         <li class="features_item">
           <a class="features_link" href="#">
              <div class="feature_icons"><span class="icon-write"></span></div>
@@ -278,20 +278,24 @@
     <strong class="c">C</strong>
       <h2 class="contact_title">We'd love to hear about your project.</h2>
 	
-	<form class="form">
-			<input class="cell cell_text" type="text" placeholder="Name"  autofocus required>
-			<input class="cell cell_email" type="email" placeholder="Email" required>
-			<input class="cell cell_phone" type="tel" placeholder="Phone" required>
-			<input class="cell cell_message" type="text" placeholder="Message" required>
+	<form id="feedback-form" action="/sendmail.php" method="post" name="feedback_form" enctype="application/x-www-form-urlencoded">
+        <h2 class="visually-hidden">Feedback form</h2>
+        <div class="feedback-form__info"></div>
+
+			<input id="user-name" type="text" name="user_name" placeholder="Name"  autofocus required>
+			<input  id="user-email" type="email" name="user_email" placeholder="Email" required>
+			<input id="user-phone" type="tel" placeholder="Phone" required>
+	   <textarea name="message" id="user-message" rows="5" placeholder="Your Message.." required></textarea>
 			<button type="submit" class="button_act">Submit</button>
 		</form>
+
   </div>
 </section>
 <!-- /Contact area -->
   </main>
 <!-- /Page Main -->
 
-
+<a href="#toup" class="toup">Up</a>
  <!-- Page Footer -->
  <footer class="footer">
  	<div class="container_map">
@@ -305,10 +309,19 @@
   </footer>
 <!-- /Page Footer -->
 
-	<!--  JAVA SCRIPTS  -->
+ <!-- Scroll-up -->
+  <div class="scroll-up">
+      <a href="#toup" class="toup">Up</a>
+   </div>
+ <!-- /Scroll-up -->
 
+	<!--  JAVA SCRIPTS  -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script type="text/javascript" src="js/no-js.js"></script>
 <script type="text/javascript" src="js/sticky-header.js"></script>
+<script type="text/javascript" src="js/scrollto.js"></script>
+<script type="text/javascript" src="js/toup.js"></script>
+
 
 
 </body>
