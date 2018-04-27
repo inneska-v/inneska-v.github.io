@@ -3,7 +3,7 @@
 .contact,
 .c,
 .contact_title,
-.form,
+#feedback-form,
 .cell,
 .button_act {
 
@@ -49,52 +49,83 @@ font-family: 'Gotham Medium', sans-serif;
   
 }
 
-.form {
+.form-container {
 
 display: flex;
+    max-width: 1175px;
+    margin: 120px auto 0;
+}
+
+#feedback-form {
+
+ display: flex;
 flex-direction: row;
 flex-wrap: wrap;
+justify-content: space-between;
 margin: 0 auto;
-padding-top: 120px;
-height: 240px;
-width: 1175px;
+  min-width: 50%;
+  min-height: 50%;
+  padding: 20px;
+
+  text-align: left;
+  border: none;
+margin: 0;
+
+
 
 }
 
 
-.cell {
-
+#feedback-form input {
 display: block;
 box-sizing: border-box;
-background-color: transparent;
 height: 45px;
 width: 365px; 
+
+background-color: transparent;
 color: #ffffff;
 border: 2px solid #fff;
+padding-left: 20px;
+font-size: 16px;
+line-height: 32px;
 
-  font-size: 16px;
-  line-height: 32px;
+box-shadow: 0px 2px 0px #fff;
+transition: 0.3s;
 
 }
 
-.cell_email {
+#feedback-form input[type="email"] {
 
 	margin-left: 25px;
 	margin-right: 25px;
 }
 
-.cell_message {
+#feedback-form textarea {
 
+display:block;
+box-sizing: border-box;
 height: 150px;
 width: 1145px;
-padding-top: 35px;
-
+margin-top: 35px;
+border: 2px solid #fff;
+padding-left: 20px;
+font-size: 16px;
+line-height: 32px;
+ outline: none;
+ color: #fff;
+background-color: transparent;
+max-width: 100%;
+resize: none;
+overflow: hidden;
+box-shadow: 0px 2px 0px #fff;
+transition: 0.3s;
 }
 
-.cell:focus {
+#feedback-form textarea:focus,
+#feedback-form input:focus {
 
 border: 2px solid #11749e;
-
+box-shadow: inset 3px 3px 3px rgba(5,139,196,0.2);
 }
 
 <!-- /Contact area -->
