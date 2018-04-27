@@ -278,24 +278,28 @@
     <strong class="c">C</strong>
       <h2 class="contact_title">We'd love to hear about your project.</h2>
 	
-	<form id="feedback-form" action="/sendmail.php" method="post" name="feedback_form" enctype="application/x-www-form-urlencoded">
+  <div class="form-container">
+      <div class="note"></div>
+      <div class="fields">
+	<form id="feedback-form" class="ajax-contact-form" action="/sendmail.php" method="post" name="feedback_form" enctype="application/x-www-form-urlencoded">
         <h2 class="visually-hidden">Feedback form</h2>
         <div class="feedback-form__info"></div>
 
 			<input id="user-name" type="text" name="user_name" placeholder="Name"  autofocus required>
 			<input  id="user-email" type="email" name="user_email" placeholder="Email" required>
 			<input id="user-phone" type="tel" placeholder="Phone" required>
-	   <textarea name="message" id="user-message" rows="5" placeholder="Your Message.." required></textarea>
+	   <textarea name="message" id="user-message" cols="40" rows="5" placeholder="Your Message.." required></textarea>
 			<button type="submit" class="button_act">Submit</button>
 		</form>
-
+</div>
+</div>
   </div>
 </section>
 <!-- /Contact area -->
   </main>
 <!-- /Page Main -->
 
-<a href="#toup" class="toup">Up</a>
+
  <!-- Page Footer -->
  <footer class="footer">
  	<div class="container_map">
