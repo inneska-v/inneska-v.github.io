@@ -14,6 +14,24 @@
 }
 
 
+.btn_arrow {
+
+width: 60px;
+height: 60px;
+border-radius: 50%;
+border: 1px solid #ffffff;
+opacity: 100%;  
+cursor: pointer;
+top:0;
+right: 0;
+left: 0;
+margin-bottom: 100px;
+position: relative;
+transition: 0.3s;
+}
+
+
+
 
 .icon-keyboard_arrow_down {
 
@@ -28,6 +46,37 @@ display: flex;
 .icon-keyboard_arrow_down:hover {
 transition: 0.5s;
 color: #11749e;
+}
+
+.pulse:hover::before,
+.pulse:hover::after {
+ content: '';
+ position: absolute;
+ border: 1px solid #29AEE3;
+ left: -20px;
+ right: -20px;
+ top: -20px;
+ bottom: -20px;
+ border-radius: 50%;
+ animation: pulse 1.8s linear infinite;
+ opacity: 0;
+}
+.pulse:hover::after {
+ animation-delay: .5s;
+}
+
+@keyframes pulse {
+ 0% {
+  transform: scale(0.5);
+  opacity: 0;
+ }
+ 50% {
+  opacity: 1;
+ }
+ 100% {
+  transform: scale(1.2);
+  opacity: 0;
+ }
 }
 
 .button_act {
@@ -55,12 +104,11 @@ color: #11749e;
 
 
 .button_act:hover,
-.button_act:focus {
+.button_act:active {
   background-color: #fff;
   color: #11749e;
   transition: 0.5s;
 }
-
 
 .toup {
 
@@ -72,7 +120,6 @@ color: #11749e;
   margin: 0 auto;
  text-align: center;
  text-decoration: none;
- line-height: 50px;
  background-color: rgba(35, 187, 252, 0.75);
  color: #fff;
 border: 2px solid #fff;
@@ -81,9 +128,21 @@ border: 2px solid #fff;
  z-index: 10;
 }
 
+.toup span {
+
+padding: 0;
+padding-bottom: 10px;
+    -o-transform: scaleY(-1);
+  -ms-transform: scaleY(-1);
+  -moz-transform: scaleY(-1);
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+}
 .toup-visible {
   display: block;
 }
+
+
 
 /*  /BUTTON  */
 
