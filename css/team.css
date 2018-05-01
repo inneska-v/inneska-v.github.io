@@ -78,6 +78,7 @@ flex-wrap: nowrap;
 list-style: none;
  text-decoration: none;
   padding-top: 10px;
+  padding-left: -40px;
 }
 
 .workers {
@@ -99,17 +100,19 @@ overflow: hidden;
 	background-color: #fff;
 	border: 1px solid #ffffff;
 	width: 215px;
-	height: 80px;
+	height: 70px;
 	align-items: center;
 	margin-left: 26px;
-	margin-top: -45px;
-
+	margin-top: -40px;
+transition: 0.5s;
+overflow: hidden;
+cursor: pointer;
 }
 
 .workers_block:hover {
 
 border: 1px solid #11749e;
-transition: 0.5s;
+
 }
 
 .team_workers {

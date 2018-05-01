@@ -87,7 +87,8 @@ color: #11749e;
   font-size: 24px;
   width: 225px;
   height: 65px;
-  box-sizing: border-box;
+  box-sizing: border-box; 
+  border: 3px solid #11749e;
   background-color: #11749e;
   color: #fff;
   text-transform: uppercase;
@@ -97,19 +98,54 @@ color: #11749e;
   right: 0;
   margin: 0 auto;
   margin-bottom: 100px;
-  border: none;
-
+transition: 0.5s;
+ overflow: hidden;
 }
 
 
 
-.button_act:hover,
-.button_act:active {
+.button_act::before,
+.button_act::after {
+ position: absolute;
+ content: '';
+ width: 100%;
+ height: 100%;
+ background: #fff;
+ top: 0;
+ left: -100%;
+ opacity: .5;
+ transition: .3s;
+ z-index: -1;
+}
+.button_act::after {
+ opacity: 1;
+ transition-delay: .2s;
+}
+.button_act:hover::before,
+.button_act:hover::after {
+ left: 0;
+}
+
+.pulse_bubble {
+ background-color: rgba(35, 187, 252, 0.75);
+ border-radius: 50%;
+ animation: pulse 0.7s ease-out;
+ transform: scale(0);
+ position: absolute;
+}
+@keyframes pulse_bubble {
+ to {
+  transform: scale(2);
   background-color: #fff;
-  color: #11749e;
-  transition: 0.5s;
+  opacity: 0;
+ }
 }
 
+
+
+.scroll-up {
+  position: relative;
+}
 .toup {
 
   position: fixed;
