@@ -1,4 +1,4 @@
-var buttons = document.getElementsByClassName('butt'),
+var buttons = document.getElementsByClassName('button_act'),
     forEach = Array.prototype.forEach;
 
 forEach.call(buttons, function (b) {
