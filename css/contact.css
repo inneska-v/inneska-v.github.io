@@ -66,10 +66,13 @@ display: flex;
   font-weight: bold;
   display: none;
   z-index: 10;
+  transition: all .5s ease; 
+  color: #fff;
 }
+
 .success span {
   margin: auto;
-  transition: all .5s ease; 
+  
 }
  
 .active {
@@ -149,7 +152,5 @@ border: 2px solid #11749e;
 box-shadow: inset 3px 3px 3px rgba(5,139,196,0.2);
 }
 
-.feedback-form__info button {
-  position: relative;
-}
+
 <!-- /Contact area -->
