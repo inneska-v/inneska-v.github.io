@@ -7,10 +7,10 @@ $.ajax({
 type: "POST",
 url: "http://github.com/inneska-v/mail.php",
 data: th.serialize()
-}).done (function (){
+}).done(function() {
 	$(th).find('.success').addClass('.active').css('display','flex').hide().fadeIn();
 
-	setTimeout (function() {
+	setTimeout(function() {
 		$(th).find('.success').removeClass('.active').fadeOut();
 		th.trigger('reset');
 	}, 3000);
@@ -19,4 +19,5 @@ data: th.serialize()
 return false;
 
 });
+
 });
