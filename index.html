@@ -283,15 +283,20 @@
       <h2 class="contact_title">We'd love to hear about your project.</h2>
 	
   <div class="form-container">
-      <div class="note"></div>
+    <!-- Hidden Required Fields -->
+    <input type="hidden" name="project_name" value="Site Name">
+    <input type="hidden" name="admin_email" value="innatan.bb@gmail.com">
+    <input type="hidden" name="form_subject" value="Form Subject">
+    <!-- END Hidden Required Fields -->
+      <div class="success"><span>Thank! We will contact you soon!</span></div>
       <div class="fields">
-	<form id="feedback-form" class="ajax-contact-form" action="/sendmail.php" method="post" name="feedback_form" enctype="application/x-www-form-urlencoded">
+	<form id="feedback-form" class="ajax-contact-form" action="" method="post" name="feedback_form">
         <h2 class="visually-hidden">Feedback form</h2>
         <div class="feedback-form__info"></div>
 
-			<input id="user-name" type="text" name="user_name" placeholder="Name"  autofocus required>
-			<input  id="user-email" type="email" name="user_email" placeholder="Email" required>
-			<input id="user-phone" type="tel" placeholder="Phone" required>
+			<input id="user-name" type="text" name="name" placeholder="Name" required>
+			<input  id="user-email" type="email" name="email" placeholder="Email" required>
+			<input id="user-phone" type="tel" placeholder="Phone" name="tel"required>
 	   <textarea name="message" id="user-message" cols="40" rows="5" placeholder="Your Message.." required></textarea>
      <button type="submit" class="button_act">Submit</button>
   </form>
@@ -330,7 +335,7 @@
 <script type="text/javascript" src="js/scrollto.js"></script>
 <script type="text/javascript" src="js/toup.js"></script>
 <script type="text/javascript" src="js/script-bubble.js"></script>
-
+<script src="contactform.js"></script>
 
 
 
