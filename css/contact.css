@@ -56,6 +56,27 @@ display: flex;
     margin: 120px auto 0;
 }
 
+.success {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: none;
+  z-index: 10;
+}
+.success span {
+  margin: auto;
+  transition: all .5s ease; 
+}
+ 
+.active {
+  opacity: .5;
+  filter: blur(10px);
+}
+
 #feedback-form {
 
  display: flex;
