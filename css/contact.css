@@ -56,29 +56,100 @@ display: flex;
     margin: 120px auto 0;
 }
 
-.success {
-  position: absolute;
+.overlay {
+
+  position: fixed;
+  display: none;
   top: 0;
+  bottom: 0;
   left: 0;
   right: 0;
-  bottom: 0;
-  text-transform: uppercase;
-  font-weight: bold;
-  display: none;
+  background-color: rgba(0, 0, 0, 0.65);
+
   z-index: 10;
-  transition: all .5s ease; 
-  color: #fff;
+
 }
 
-.success span {
-  margin: auto;
-  
+.overlay.overlay--visible {
+
+  display: block;
+
 }
- 
-.active {
-  opacity: .5;
-  filter: blur(10px);
+
+.overlay_success  {
+
+  display: block;
+  box-sizing: border-box;
+  min-width: 50%;
+  min-height: 50%;
+  margin: 0;
+  padding: 20px;
+
+  border: none;
+  border-radius: 7px;
+  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.75);
+
+  color: black;
+  background-color: #fff;
+
+  text-align: center;
+
 }
+
+.overlay .overlay_success {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+
+
+.overlay_success button.overlay_close {
+
+  position: absolute;
+  top: 20px;
+  right: 20px;
+
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: lowercase;
+  font-weight: bold;
+
+  color: #1a8aeb;
+  background-color: transparent;
+
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+}
+
+.overlay_success button.overlay_close:hover {
+
+  color: #133bb2;
+
+}
+
+
+.overlay_success h4 {
+
+display: block;
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  box-sizing: border-box; 
+  text-transform: uppercase;
+  font-family: 'Gotham Medium', sans-serif;
+  color: #1a8aeb;
+
+
+}
+
 
 #feedback-form {
 
