@@ -1,5 +1,6 @@
 $(document).ready(function () {
-	//Example: $(".element").animated("zoomInUp");
+
+//Animated.css
 
 $("h1, h2, h3").animated("fadeInDown", "fadeOutDown");
 $("p").animated("flipInX", "fadeOutDown");
@@ -23,5 +24,21 @@ $(".team .workers_block").animated("zoomIn", "fadeOutDown");
 
 $(".footer .container_map").animated("rotateIn", "fadeOutDown");
 
+$("input, select, textarea").jqBootstrapValidation();
+
+
+//MixitUp (меняем только класс или id)
+
+var mixer = mixitup('#portfolio_mix');
+var mixer = mixitup(containerEl);
+
+var mixer = mixitup(containerEl, {
+    selectors: {
+        target: '.blog-item'
+    },
+    animation: {
+        duration: 300
+    }
+});
 
 })
