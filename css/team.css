@@ -7,7 +7,7 @@
 .team_text,
 .workers_block,
 .team_workers,
-.workers_block,
+.workers_wrap,
 .workers,
 .workers_name,
 .workers_position {
@@ -15,6 +15,7 @@
 padding: 0;
 margin: 0;
 }
+
 
 .team {
 padding-top: 70px;
@@ -103,17 +104,20 @@ overflow: hidden;
 	height: 70px;
 	align-items: center;
 	margin-left: 26px;
-	margin-top: -40px;
+	margin-top: -63px;
 transition: 0.5s;
 overflow: hidden;
 cursor: pointer;
+z-index: 1;
 }
 
 .workers_block:hover {
 
 border: 1px solid #11749e;
+box-shadow: inset 3px 3px 3px 3px rgba(5,139,196,0.2);
 
 }
+
 
 .team_workers {
 

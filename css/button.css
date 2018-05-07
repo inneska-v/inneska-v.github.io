@@ -1,6 +1,9 @@
 
 /*  BUTTON  */
 
+
+
+
 .btn {
   
   display: inline-block;
@@ -177,7 +180,6 @@ padding-bottom: 10px;
 .toup-visible {
   display: block;
 }
-
 
 
 /*  /BUTTON  */
