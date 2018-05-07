@@ -19,6 +19,7 @@
 <link rel="stylesheet" type="text/css" href="css/button.css">
 <link rel="stylesheet" type="text/css" href="css/features.css">
 <link rel="stylesheet" type="text/css" href="css/news_area.css">
+<link rel="stylesheet" type="text/css" href="css/portfolio.css">
 <link rel="stylesheet" type="text/css" href="css/blog.css">
 <link rel="stylesheet" type="text/css" href="css/review.css">
 <link rel="stylesheet" type="text/css" href="css/advantages.css">
@@ -151,6 +152,62 @@
 </section>
 <!-- /News area-->
 
+
+<!-- Our portfolio -->
+<section class="portfolio">
+	<div class="container clearfix">
+<div id="container">
+		<div id="main">
+            <form id="searchForm">
+                <fieldset>
+                    <div class="input">
+                        <input type="text" name="s" id="s" value="Search by name" />
+                    </div>
+                    <input type="submit" id="searchSubmit" value="" />
+                </fieldset>
+            </form>
+		</div>
+	</div>
+	</div>
+
+
+		 <strong class="p">P</strong>
+      	<h2 class="portfolio_title">Our portfolio</h2>
+	
+
+   <form class="portfolio_categories" name="portfolio" action="#" method="post">
+         <label class="portfolio_filter">
+            <input type="radio" name="filter" data-filter="all" checked>
+            <span>all</span>
+        </label>
+        <label class="portfolio_filter">
+            <input type="radio" name="filter" data-filter=".category-1">
+            <span>Landing page</span>
+        </label>
+        <label class="portfolio_filter">
+            <input type="radio" name="filter" data-filter=".category-2">
+            <span>Banners</span>
+        </label>
+        <label class="portfolio_filter">
+            <input type="radio" name="filter" data-filter=".category-3">
+            <span>Business Card</span>
+          </label>
+        </form>
+	</div>
+
+	<ul id="portfolio_mix" class="portfolio_list clearfix">
+		<li class="mix category-2"><span class="portfolio_name">Banner</span><img src="img/portfolio-images/Banners-psd.jpg" alt="banner"></li>
+		<li class="mix category-3"><span class="portfolio_name">Business card</span><img src="img/portfolio-images/Black-Business-Card.jpg" alt="business_card"></li>
+		<li class="mix category-2"><span class="portfolio_name">Banner</span><img src="img/portfolio-images/Business-banner.jpg" alt="banner"></li>
+		<li class="mix category-3"><span class="portfolio_name">Business card</span><img src="img/portfolio-images/Business-Card.jpg" alt="business_card"></li>
+		<li class="mix category-1"><span class="portfolio_name">Landing page</span><img src="img/portfolio-images/3.jpg" alt="landingpage"></li>
+		<li class="mix category-1"><span class="portfolio_name">Landing page</span><img src="img/portfolio-images/1.jpg" alt="landingpage"></li>
+		<li class="mix category-3"><span class="portfolio_name">Business card</span><img src="img/portfolio-images/Corporate-Business-Card.jpg" alt="business_card"></li>
+		<li class="mix category-3"><span class="portfolio_name">Business card</span><img src="img/portfolio-images/Photographer-Business-Card.jpg" alt="business_card"></li>
+		
+	</ul>
+</section>
+<!-- /Our portfolio -->
 
 <!-- Blog -->
 <section class="blog">
@@ -320,7 +377,7 @@
  		<div class="container clearfix">
  			<div class="credits">© 2016 PSDfreebies.com - All Right Reserved 
       </div>
- 			<a href="#" class="design">Designed by:<img src="img/bee.png" alt="bee">PSDFreebies.com</a>
+ 			<a href="https://psdfreebies.com" class="design">Designed by:<img src="img/bee.png" alt="bee">PSDFreebies.com</a>
 </div>
   </footer>
 <!-- /Page Footer -->
@@ -336,6 +393,9 @@
 <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="js/waypoints.min.js"></script>
 <script type="text/javascript" src="js/animate-css.js"></script>
+<script type="text/javascript" src="js/jquery.color.js"></script>
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+<script type="text/javascript" src="js/mixitup.js"></script>
 <script type="text/javascript" src="js/common.js"></script>
 <script type="text/javascript" src="js/no-js.js"></script>
 <script type="text/javascript" src="js/sticky-header.js"></script>
@@ -343,6 +403,8 @@
 <script type="text/javascript" src="js/toup.js"></script>
 <script type="text/javascript" src="js/script-bubble.js"></script>
 <script type="text/javascript" src="js/overlay.js"></script>
+<script type="text/javascript" src="js/search.js"></script>
+
 
 
 </body>
