@@ -32,7 +32,6 @@ $(".team .workers_block").animated("zoomIn", "fadeOutDown");
 
 $(".footer .container_map").animated("rotateIn", "fadeOutDown");
 
-$("input, select, textarea").jqBootstrapValidation();
 
 
 $('.galleryItem').magnificPopup({
