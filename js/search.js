@@ -1,4 +1,4 @@
-$(function(){
+$(document).ready(function () {
 
     var input = $('input#s');
     var divInput = $('div.input');
