@@ -1,0 +1,54 @@
+<!-- Gallery -->
+
+.library,
+.item,
+.gallery_title,
+.gallery {
+
+padding: 0;
+margin: 0;
+}
+
+
+.gallery {
+ 
+height: 1100px;
+width: auto;
+color: #fff;
+background-color: #222222;
+text-align: center;
+
+}
+
+
+
+.gallery_title {
+
+font-family: 'Gotham Medium', sans-serif;
+  font-weight: normal;
+  font-size: 37px;
+  line-height: 45px;
+  text-transform: uppercase;
+  padding-top: 50px;
+}
+
+.library {
+	width: 1200px;
+background-color: #f3f3f3;
+	margin: 0px auto 0px auto;
+}
+
+
+
+.library img {
+    width: 300px;
+	margin: 20px;
+	border: 1px solid black;
+ }
+
+ /* optionally hide arrows until image is displayed */
+.mfp-s-loading .mfp-arrow { 
+   display: none;
+}
+
+<!-- /Gallery -->
