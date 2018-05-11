@@ -5,10 +5,12 @@
 .container_team,
 .team_title,
 .team_text,
-.workers_block,
-.team_workers,
-.workers_wrap,
-.workers,
+.team_list,
+.team_card,
+.workers_front,
+.workers_back,
+.social_card,
+.card_details,
 .workers_name,
 .workers_position {
 
@@ -19,8 +21,9 @@ margin: 0;
 
 .team {
 padding-top: 70px;
-  padding-bottom: 125px;
-  text-align: center;
+height: 900px;
+text-align: center;
+
 
 }
 
@@ -66,92 +69,106 @@ font-family: 'Gotham Book', sans-serif;
 
 
 .container_team {
-position: relative;
- align-items: center;
 
+padding-top: 10px;
+align-items: center;
 }
 
 .team_list {
 
+position: relative;
 display: flex;
-justify-content: center;
+flex-direction: row;
 flex-wrap: nowrap;
+justify-content: space-between;
+align-items: center;
 list-style: none;
- text-decoration: none;
-  padding-top: 10px;
-  padding-left: -40px;
+text-decoration: none;
+
 }
 
-.workers {
+.team_list li {
 
+position: relative;
 display: block;
+box-sizing: border-box;
 height: 415px;
 width: 270px;
-margin: 0 15px;
-background-repeat: no-repeat;
-background-position: center;
-overflow: hidden;
 
 }
 
-.workers_block {
-
-	position: absolute;
-	display: block;
-	background-color: #fff;
-	border: 1px solid #ffffff;
-	width: 215px;
-	height: 70px;
-	align-items: center;
-	margin-left: 26px;
-	margin-top: -63px;
+.team_card {
+position: absolute;     
+height: 415px;
+width: 270px;
+transform-style: preserve-3d;
+perspective:  600px;
 transition: 0.5s;
-overflow: hidden;
-cursor: pointer;
-z-index: 1;
-}
-
-.workers_block:hover {
-
-border: 1px solid #11749e;
-box-shadow: inset 3px 3px 3px 3px rgba(5,139,196,0.2);
 
 }
 
 
-.team_workers {
+.team_card .workers_front {
 
-text-decoration: none;
-color: #11749e;
-line-height: 0;
-font-size: 0;
-vertical-align: middle;
-
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  backface-visibility: hidden;
+  transform: rotateX(0deg);
+  transition: 0.5s;
+  overflow: hidden;
 }
 
+.team_card:hover .workers_front {
+transform: rotateX(-180deg);
+}
 
+.team_card .workers_back {
 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+ background-color: rgba(35, 187, 252, 0.75);
+  backface-visibility: hidden;
+  transform: rotateX(180deg);
+  transition: 0.5s;
+  overflow: hidden;
+}
 
+.team_card:hover .workers_back {
+  transform: rotateX(0deg);
+}
+
+.card_details {
+padding-top: 120px;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
 .workers_name {
 
 font-family: 'Gotham Medium', sans-serif;
-line-height: 24px;
+line-height: 34px;
 font-weight: normal;
 font-size: 20px;
-color: #11749e;
+color: #fff;
 text-transform: uppercase;
-margin: 10px auto;
+
 
 }
 
 .workers_position {
 
 font-family: 'Gotham Medium', sans-serif;
-line-height: 10px;
+line-height: 20px;
 font-weight: normal;
 font-size: 15px;
-color: #000;
-margin: 0 auto;
+color: #fff;
+
 
 }
 
